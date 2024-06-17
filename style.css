@@ -38,7 +38,7 @@
 	Header CSS
 ========================================*/
 .header {
-	background: #fff;
+	background: #000;
 	z-index: 200;
 	position: relative;
 	box-shadow: 0 10px 10px #0000000a;
@@ -102,7 +102,7 @@
 }
 
 .header .navigation li a {
-	color: #555;
+	color: #fff;
 	font-size: 15px;
 	display: inline-block;
 	font-weight: 600;
@@ -222,7 +222,7 @@
 	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	box-shadow: 0px 0px 15px rgb(0 0 0 / 17%);
-	background: #fff;
+	background: #000;
 	animation: fadeInDown 1s both 0.2s;
 }
 
@@ -1541,7 +1541,7 @@
 .fun-fact .single-count {
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 8px;
 	border-right: 1px solid #ddd;
 }
 
@@ -3357,3 +3357,8 @@
 .color-theme{
 	color: #28B463;
 }
+@media only screen and (max-width: 600px) {
+	.topbar{
+		display: none;
+	}
+  }
